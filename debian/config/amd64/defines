@@ -24,3 +24,7 @@ hardware-long: PCs with AMD64, Intel 64 or VIA Nano processors
 [cloud-amd64_description]
 hardware: x86-64 cloud
 hardware-long: cloud platforms including Amazon EC2, Microsoft Azure, and Google Compute Engine
+
+[lstoll-amd64_description]
+hardware: x86-64 lstoll
+hardware-long: lstolls amd64 images

@@ -2,9 +2,15 @@
 flavours:
  amd64
  cloud-amd64
+ lstoll-amd64
 default-flavour: amd64
 
 [cloud-amd64_image]
 configs:
  config.cloud
  amd64/config.cloud-amd64
+
+[lstoll-amd64_image]
+configs:
+ amd64/config
+ amd64/config.lstoll-amd64

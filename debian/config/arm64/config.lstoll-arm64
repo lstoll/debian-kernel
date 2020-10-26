@@ -1,0 +1,8 @@
+# https://source.android.com/security/encryption/adiantum
+CONFIG_CRYPTO_ADIANTUM=y
+
+# https://github.com/google/cadvisor/blob/9b7851c9fb0efb02e330ec88a8b54569e7a87529/machine/machine.go#L239-L270
+CONFIG_HOTPLUG_CPU=y
+
+# https://github.com/raspberrypi/linux/issues/3387
+CONFIG_CFS_BANDWIDTH=y

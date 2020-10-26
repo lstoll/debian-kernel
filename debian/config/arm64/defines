@@ -21,6 +21,10 @@ hardware: 64-bit ARMv8 machines
 hardware: arm64 cloud
 hardware-long: cloud platforms supporting arm64 virtual machines
 
+[lstoll-arm64_description]
+hardware: arm64 lstoll
+hardware-long: lstolls arm64 images
+
 [arm64_image]
 
 [relations]

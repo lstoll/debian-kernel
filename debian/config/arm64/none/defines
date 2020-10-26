@@ -2,9 +2,15 @@
 flavours:
  arm64
  cloud-arm64
+ lstoll-arm64
 default-flavour: arm64
 
 [cloud-arm64_image]
 configs:
  config.cloud
  arm64/config.cloud-arm64
+
+[lstoll-arm64_image]
+configs:
+ arm64/config
+ arm64/config.lstoll-arm64
